@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarix Asan İzahda</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Tarix Asan İzahda</div>
+            <ul class="nav-links">
+                <li><a href="#home">Ana Səhifə</a></li>
+                <li><a href="#articles">Məqalələr</a></li>
+                <li><a href="#about">Haqqında</a></li>
+                <li><a href="#contact">Əlaqə</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Tarixi Asan və Maraqlı İzah Edirik!</h1>
+            <p>Keçmişə səyahətə başla və tarixi hadisələri yenidən kəşf et!</p>
+            <a href="#articles" class="btn">Daha çox öyrən</a>
+        </div>
+    </section>
+
+    <section id="articles" class="articles">
+        <h2>Son Məqalələr</h2>
+        <div class="article-container">
+            <!-- Məqalə nümunəsi -->
+            <div class="article-card">
+                <img src="history1.jpg" alt="Tarix Məqaləsi" />
+                <div class="article-content">
+                    <h3>Qədim Misir Tarixi</h3>
+                    <p>Qədim Misirin maraqlı sirləri və piramidaların tarixi...</p>
+                    <a href="#" class="read-more">Davamını oxu</a>
+                </div>
+            </div>
+
+            <div class="article-card">
+                <img src="history2.jpg" alt="Tarix Məqaləsi" />
+                <div class="article-content">
+                    <h3>İkinci Dünya Müharibəsi</h3>
+                    <p>İkinci Dünya Müharibəsinin əsas səbəbləri və nəticələri...</p>
+                    <a href="#" class="read-more">Davamını oxu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Haqqımızda</h2>
+        <p>Tarixi hadisələri sadə və anlaşıqlı dildə təqdim edirik. Məqsədimiz tarixi həqiqətləri hər kəs üçün əlçatan etməkdir.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Bizimlə Əlaqə</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Adınız" required />
+            <input type="email" id="email" placeholder="Email" required />
+            <textarea id="message" placeholder="Mesajınız" required></textarea>
+            <button type="submit">Göndər</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tarix Asan İzahda. Bütün hüquqlar qorunur.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
